@@ -1,46 +1,94 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>梁家瑄的作品頁面</title>
-    
+
     <style>
-        h1 { color: #84B126;text-align: center} /**打顏色的方法+文字置中 **/
+        h1 {
+            color: #84B126;
+            text-align: center
+        }
+        /**打顏色的方法+文字置中 **/
         
-        img { width: 300px;
-        border: 1px solid blue;
-        margin-right: auto;
-        margin-left: auto;}
+        img {
+            width: 300px;
+            border: 1px solid blue;
+            margin-right: auto;
+            margin-left: auto;
+        }
         
-        .A {background-color: beige;
+        .A {
+            background-color: beige;
             text-indent: 32px;
             font-size: 12px;
-        padding: 32px;
-            margin: 10px;}/**段落縮排text-indent**/
-    
-        .B {background-color: cadetblue;
+            padding: 32px;
+            margin: 10px;
+        }
+        /**段落縮排text-indent**/
+        
+        .B {
+            background-color: cadetblue;
             text-indent: 32px;
             font-size: 12px;
-        padding: 32px;
-            margin: 10px;}/**如何召喚class，先打.然後加上class名稱**/
+            padding: 32px;
+            margin: 10px;
+        }
+        /**如何召喚class，先打.然後加上class名稱**/
         
-    
-    </style><!--在head裡面打style，然後在裡面打ＣＳＳ，所以裡面的都是css碼，css的註解方式是/**-->
-    
+        #one {
+            width: 50%;
+            /**用＃召喚div的id**/
+            
+            background-color: darkgoldenrod;
+            float: left;
+            
+        }
+        
+        #two {
+            width: 50%;
+            background-color: darkolivegreen;
+            background-image: url(img/005LUN.png);
+            float: left;
+            background-size: 200px ;
+        }
+    </style>
+    <!--在head裡面打style，然後在裡面打ＣＳＳ，所以裡面的都是css碼，css的註解方式是/**-->
+
 </head>
+
 <body>
-<h1>關於Liang Jia-Shiuan</h1>
-<p class="A">1992/9/28<!--class＝段落的分類用-->
-    臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人</p>
-<p class="B">
-    臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人</p>
-    
-    
-    <h2>photo!</h2>
-    <img src="img/thumb_11406619_1138915979458047_3151670594969501809_o_1024.jpg" alt="攝自清水寺"/><!--這裏新增圖片，後面要加alt增加圖片資訊-->
-    
-    
-<!--我是小筆記 
+
+
+    <div id="one">
+        <!--給div名字後才能在css控制它-->
+        <h1>關於Liang Jia-Shiuan</h1> 第一區塊第一區塊第一區塊第一區塊第一區塊第一區塊第一區塊第一區塊第一區塊
+        <p class="B">
+            臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人</p>
+    </div>
+
+    <div id="two">
+
+        <p class="A">1992/9/28
+            <!--class＝段落的分類用-->
+            臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人臺灣桃園人</p>
+
+        <h2>photo!</h2>
+        <img src="img/thumb_11406619_1138915979458047_3151670594969501809_o_1024.jpg" alt="攝自清水寺" />
+        <!--這裏新增圖片，後面要加alt增加圖片資訊-->
+
+
+    </div>
+
+
+
+
+
+
+
+    <!--我是小筆記 
     出現粉紅色代表程式碼有問題-->
 </body>
+
 </html>
