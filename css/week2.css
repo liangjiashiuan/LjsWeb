@@ -1,0 +1,65 @@
+  body {
+            background-color: bisque;
+        }
+        
+        #all {
+            width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            -webkit-box-shadow: 0px 0px 23px 2px rgba(87, 2, 2, 1);
+            -moz-box-shadow: 0px 0px 23px 2px rgba(87, 2, 2, 1);
+            box-shadow: 0px 0px 23px 2px rgba(87, 2, 2, 1);
+        }
+        
+        .banner {
+            width: 960px;
+            height: 67px;
+            background-image: url(../img/001homework_banner.png);
+        }
+        
+        .link {
+            width: 960px;
+            height: 40px;
+        }
+        
+        .mainimg {
+            width: 960px;
+            height: 433px;
+            background-image: url(../img/001homework_cover.png);
+        }
+        
+        .btn {
+            width: 210px;
+            height: 40px;
+            display: block;
+            float: left;
+            text-indent: -5000px;
+        }
+        
+        #b1 {
+            background-image: url(../img/001homework_about.png);
+            margin-left: 60px;
+        }
+        
+        #b2 {
+            background-image: url(../img/001homework_works.png);
+        }
+        
+        #b3 {
+            background-image: url(../img/001homework_reserve.png);
+        }
+        
+        #b4 {
+            background-image: url(../img/001homework_contact%20us.png);
+            margin-right: 60px;
+        }
+        
+        #footer {
+            height: 70px;
+            text-align: center;
+            padding-top: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+            color: brown;
+        }
